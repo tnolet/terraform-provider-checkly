@@ -59,7 +59,7 @@ resource "checkly_check" "checkly-public-stats" {
   name                      = "public-stats"
   type                      = "API"
   activated                 = true
-  should_fail               = true
+  should_fail               = false
   frequency                 = 1
   double_check              = true
   ssl_check                 = true
